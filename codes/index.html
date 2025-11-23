@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="JPG.jpg" alt="My Profile Photo" width="150" height="150">
+    <p>Hello! My name is <b>ANKIT MAITY</b>. I am learning web development and im so much exited to learn many coding languages. I also love to explore new new things like games and pop culture .I also good at leadership which can give postive outcomes for your projects.I can be asset for your compaany. </p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <table>
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>A simple HTML and CSS webpage for introducing myself .</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>done an good ui for medical app .</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Enter your name" required><br>
+      <input type="email" placeholder="Enter your email" required><br>
+      <textarea rows="4" placeholder="Write your message" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio | Made by ANKIT MAITY</p>
+  </footer>
+
+  <button id="topBtn" onclick="window.scrollTo({top:0, behavior:'smooth'});">Back to Top</button>
+
+</body>
+</html>
