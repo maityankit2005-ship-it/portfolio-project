@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSFORM</title>
+    <style>
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            height: 500px;
+            width: 600px;
+            background-color: blanchedalmond;
+            padding: 10px;
+            gap: 20px;
+        
+        }
+
+        .box{
+            height: 180px;
+            width: 150px;
+            background-color: rgb(14, 14, 111)
+            
+           
+        }
+        .box:hover{
+            transform: scale(2.2);
+        }
+
+        .clr{
+            width: 200px;
+            height: 200px;
+            animation-name: change-color;
+            animation-duration: 6s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            
+        }
+
+        @keyframes change-color{
+            from{
+                background-color: brown;
+            }
+            to{
+                background-color: aliceblue;
+            }
+        }
+
+        .loader{
+            width: 60px;
+            height: 60px;
+            border: 10px solid #d6d6d6;
+            border-top: 10px solid red;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <div class="clr"></div>
+    
+</body>
+</html>

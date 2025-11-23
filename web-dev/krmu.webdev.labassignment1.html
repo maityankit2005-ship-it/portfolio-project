@@ -1,0 +1,104 @@
+<!-- Lab 1: Personal Portfolio Website -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I’m Ankit maity .I'm a web development student . This is my personal portfolio website</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main">
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="/JPG.jpg" alt="My Profile Photo" width="150" height="150">
+            <p>Hi, I’m Ankit Maity. I’m a beginner web developer who loves learning HTML and CSS. 
+            I enjoy playing games and know much more about pop culture . </p>
+        </section>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><strong>Portfolio website:</strong> A Personal one-page website to showcase your bio,skills and contact details</li>
+                <li><strong>User Form:</strong>A form webpage with fields like name,email and message for practicing form handling</li>
+                <li><strong>Birthday Card:</strong>A creative greeting card webpage designed with HTML structure and CSS styling</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>python</td>
+                    <td>expert</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" placeholder="Type your message here" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ankit Maity. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
